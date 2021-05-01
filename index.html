@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon Moves API</title>
+</head>
+<body>
+    <div class="container">
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Pokemon ID">
+            <button type="submit" onclick="fetchPokemon()" class="submit-btn">Go Pokemon!</button>
+        </form>
+        <div class="card">
+            <div class="card-header">
+                <h1 class="name">Pokemon Name</h1>
+            </div>
+            <div class="card-img">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png" alt="Pokemon Picture">
+            </div>
+            <div class="card-body">
+                <div class="card-body-header">
+                    <h3>Move</h3>
+                    <h2 class="move">Catch 'em!</h2>
+                </div>
+                </div>
+            <div class="card-footer">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
